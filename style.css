@@ -828,6 +828,15 @@ h4 {
     background-image: url("img/image-de-presentation.jpg");
 }
 
+.modif-quote {
+    font-size: 20px;
+}
+
+.modif-quote_autor {
+    font-size: 15px;
+    font-weight: 500;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
