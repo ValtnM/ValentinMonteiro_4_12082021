@@ -672,7 +672,7 @@ a {
     text-align: center;
     font-weight: lighter;
     max-width: 520px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 p {
@@ -681,7 +681,7 @@ p {
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 .h1 {
@@ -704,7 +704,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 h2 {
@@ -721,7 +721,7 @@ h3 {
 
 .med-width-whitespace {
     max-width: 1000px;
-    margin: auto auto auto auto;
+    margin: auto;
     box-shadow: 0px 0px 0px #000000;
 }
 
@@ -756,7 +756,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #853B00;
     padding: 40px 40px 40px 40px;
 }
 
@@ -774,16 +774,16 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #F3BB6C;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #F3BB6C!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #F3BB6C;
+    color: #000!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -840,6 +840,18 @@ h4 {
 .modif-h1 {
     font-size: 30px;
     margin-bottom: 50px;
+}
+
+.modif-relative {
+    position: relative;
+}
+
+.modif-margin-footer {
+    margin: auto;
+}
+
+.modif-text-black {
+    color: #000!important;
 }
 
 article p {
