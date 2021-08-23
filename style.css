@@ -875,12 +875,16 @@ h4 {
     margin-top: 20px;
 }
 
+.modif-form label {
+    display: block;
+}
+
 .modif-form input, .modif-form textarea {
     width:100%;
     margin-top: 7px;
     padding: 6px;
     font-family: "Helvetica", sans-serif;
-    font-size: 20px;
+    font-size: 17px;
     border-radius: 5px;
 }
 
@@ -911,6 +915,15 @@ article p {
     font-size: 16px;
     font-weight: 500;
 
+}
+
+
+.fa {
+    color: #000!important;
+}
+
+.social a:hover .fa {
+    color:#FFF!important;
 }
 
 
@@ -1141,6 +1154,11 @@ article p {
     .modif-contact-content .col-sm-6 p {
         margin-top: 50px;
         line-height: 30px;
+    }
+
+    .modif-social {
+        display: flex;
+        justify-content: space-evenly;
     }
 }
 
