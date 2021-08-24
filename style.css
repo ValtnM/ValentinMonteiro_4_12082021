@@ -3,6 +3,11 @@
     box-sizing: border-box;
 }
 
+.page-container {
+    
+    margin: auto;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -822,10 +827,17 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-size: cover!important;
 }
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
+}
+
+
+.modif-container {
+    max-width: 1400px;
+    margin: auto;
 }
 
 .modif-quote {
@@ -919,6 +931,14 @@ article p {
 
 .social a:hover .fa {
     color:#FFF!important;
+}
+
+.modif-selected__page a {
+    color: #C27956!important;
+}
+
+.site-navigation a:hover {
+    color: #F3BB6C!important;
 }
 
 
