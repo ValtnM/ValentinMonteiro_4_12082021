@@ -934,11 +934,12 @@ article p {
 }
 
 .modif-selected__page a {
-    color: #C27956!important;
+    transform: scale(1.2);
 }
 
 .site-navigation a:hover {
-    color: #F3BB6C!important;
+    transform: scale(1.2);
+    transition: transform 100ms ease-in-out;
 }
 
 
@@ -1175,6 +1176,15 @@ article p {
         display: flex;
         justify-content: space-evenly;
     }
+
+    .modif-selected__page a {
+        transform: scale(1);
+    }
+
+    .modif-img_portfolio {
+        margin: 40px auto auto auto;
+    }
+
 }
 
 
@@ -1187,6 +1197,10 @@ article p {
 
     .hero-bloc-text {
         font-size: 28px;
+    }
+
+    .modif-red_bloc {
+        padding: 10px;
     }
 
 }
